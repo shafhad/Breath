@@ -26,7 +26,7 @@ export default function BedTime() {
         <Video
           ref={video}
           style={styles.video}
-         source={require('../assets/bd.mp4')}
+         source={require('../assets/5min.mp4')}
           useNativeControls
           resizeMode="contain"
           isLooping
@@ -42,7 +42,7 @@ export default function BedTime() {
           <Video
             ref={video}
             style={styles.video2}
-            source={require('../assets/bd2.mp4')}
+            source={require('../assets/5min.mp4')}
             useNativeControls
             resizeMode="contain"
             isLooping
